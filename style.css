@@ -1,0 +1,29 @@
+/* jumbotron*/
+
+.jumbotron {
+    background: url(Images/moviee.jpg);
+    color: black;
+    background-color: #2e7294;
+    text-align: center;
+    font-size: 150px;
+}
+
+
+/*nav bar*/
+
+.navbar {
+
+    color: black;
+}
+
+.col {
+    height: 70%;
+}
+
+
+/*footer*/
+
+.foot {
+    background-color: black;
+    color: white;
+}
