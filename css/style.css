@@ -1,7 +1,7 @@
 /* jumbotron*/
 
 .jumbotron {
-    background: url(Images/moviee.jpg);
+  
     color: black;
     background-color: #2e7294;
     text-align: center;
@@ -26,4 +26,47 @@
 .foot {
     background-color: black;
     color: white;
+}
+
+html{
+	font-size: 12px;
+}
+@media (min-width: 33.9em) { 
+
+         html {
+        font-size: 10px;
+      }
+
+
+ }
+/**
+ * Small devices (phones, tablets less than 48em)
+  */
+@media (min-width: 47.9em) {
+     html {
+    font-size: 12px;
+  }
+}
+
+/**
+ * Medium devices (tablets, small laptops less than 62em)
+ 
+ */
+@media (min-width: 61.9em) {
+    html {
+    font-size: 14px;
+  }
+
+ }
+
+/**
+ * Large devices (desktops, screens less than 75em)
+ * @param  {[type]} max-width: 74.9em        [description]
+ * @return {[type]}            [description]
+ */
+@media (min-width: 74.9em) {
+      
+html {
+    font-size: 16px;
+  }
 }
